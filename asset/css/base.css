@@ -4,6 +4,7 @@
     --text-color  :#333;
     --text-color-1: #757575;
     --text-color-2: #555555;
+    --text-color-3: #999999;
 
     --primary-color: #EE4D2D;
     --star-gold-color : #FFCE3E;
@@ -65,10 +66,18 @@ html{
 .grid__col-2-4{
     padding-left:5px;
     padding-right: 5px;
-    width: 20%;
-    
+    width: 20%; 
 }
-
+.grid__col-1-5{
+    padding-left:20px;
+    padding-right: 20px;
+    width: 19%;
+}
+.grid__col-4-5{
+    padding-left:20px;
+    padding-right: 20px;
+    width: 79%;
+}
 .grid__col-10{
     padding-left: 5px;
     padding-right: 5px;
