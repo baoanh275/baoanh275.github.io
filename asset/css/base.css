@@ -2,6 +2,9 @@
     --white-color : #fff;
     --black-color :#000;
     --text-color  :#333;
+    --text-color-1: #757575;
+    --text-color-2: #555555;
+
     --primary-color: #EE4D2D;
     --star-gold-color : #FFCE3E;
     --border-color: #dbdbdb;
@@ -44,7 +47,11 @@ html{
     padding-right: 5px;
     width: 16.6667%;
 }
-
+.grid__col-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.3334%;
+}
 .grid__col-5{
     padding-left: 5px;
     padding-right: 5px;
@@ -127,7 +134,7 @@ html{
 /* Button Style */
 
 .btn{
-    min-width: 142px;
+    min-width: 100px;
     height: 36px;
     text-decoration: none;
     border: none;
@@ -143,6 +150,16 @@ html{
 }
 .btn.btn--normal:hover{
     background-color: rgba(0,0,0,0.05);
+}
+.btn.btn--highlight{
+    border: 1px solid var(--primary-color);
+    color : var(--primary-color);
+    background-color: #FCEEEE;
+}
+.btn.btn--normal-highlight{
+    border: 1px solid var(--border-color);
+    color : var(--text-color-1);
+    background-color: var(--white-color);
 }
 .btn.btn--size-s{
     height: 32px;
