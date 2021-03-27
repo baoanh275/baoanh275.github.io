@@ -172,6 +172,9 @@
     color: var(--primary-color);
 }
 
+.auth-form__switch{
+    text-decoration: none;
+}
 
 
 /* Footer */
