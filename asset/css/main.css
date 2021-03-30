@@ -297,28 +297,21 @@
 
 }
 .header__notify-name{
-   
-    font-size: 1.4rem;
+    overflow: hidden;
+    display: -webkit-box;
+    line-height: 1.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 3rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-top: 10px;
-    display: block;
-    line-height: 2.5rem;
- 
-
-
-    
-
-
 }
 .header__notify-description{
   
     font-size: 1rem;
     display: block;
-    line-height: 10px;
-   
- 
-
-
+    line-height: 1.6rem;
 
 }
 .header__notify-list:hover{
